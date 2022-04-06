@@ -1,6 +1,5 @@
 {
   "name": "@dp-websolutions/laravel-translator",
-  "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
@@ -20,5 +19,8 @@
       "import": "./dist/laravel-translator.es.js",
       "require": "./dist/laravel-translator.umd.js"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
