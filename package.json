@@ -1,0 +1,24 @@
+{
+  "name": "@dp-websolutions/laravel-translator",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.isinteger": "^4.0.4",
+    "lodash.isobject": "^3.0.2",
+    "vite": "^2.9.0"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/laravel-translator.es.js",
+      "require": "./dist/laravel-translator.umd.js"
+    }
+  }
+}
