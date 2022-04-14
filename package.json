@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "lodash.get": "^4.4.2",

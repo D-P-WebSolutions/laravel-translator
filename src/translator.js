@@ -2,7 +2,7 @@ import get from "lodash.get";
 import isInteger from "lodash.isinteger";
 import isObject from "lodash.isobject";
 
-export const Translator = (_strings) => {
+export default function Translator(_strings) {
   let strings = _strings;
 
   return {
@@ -81,9 +81,4 @@ export const Translator = (_strings) => {
       return text;
     },
   };
-};
-
-// Expose to global variable in the browser
-if (typeof window !== "undefined") {
-  window.Translator = Translator;
 }

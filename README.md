@@ -43,10 +43,4 @@ To develop locally, clone the repository and run the following commands from wit
 
 1. `npm run install`
 2. `npm run dev`
-3. Go to `localhost:8080`
-
-### Publish to npm
-
-There's a bash script to publish to npm for convenience.
-
-Run: `./scripts/publish.sh`
+3. Go to `localhost:8080` any changes will automatically reload the page

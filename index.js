@@ -1,4 +1,4 @@
-import { Translator } from "./translator";
+import Translator from "./src/translator";
 
 const demoStrings = {
   welcome: {

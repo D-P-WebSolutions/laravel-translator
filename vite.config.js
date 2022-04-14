@@ -7,13 +7,8 @@ export default defineConfig({
     target: "es2015",
     lib: {
       entry: path.resolve(__dirname, "./src/translator.js"),
-      name: "laravel-translator",
+      name: "Translator",
       fileName: (format) => `laravel-translator.${format}.js`,
-    },
-  },
-  define: {
-    global: {
-      Translator: "Translator",
     },
   },
   server: {
