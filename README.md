@@ -44,3 +44,19 @@ To develop locally, clone the repository and run the following commands from wit
 1. `npm run install`
 2. `npm run dev`
 3. Go to `localhost:8080` any changes will automatically reload the page
+
+## Tests
+
+To run tests and watch for file changes
+
+`npm run test:dev`
+
+For a single test run
+
+`npm run test`
+
+## Coverage
+
+To check the test coverage run
+
+`npm run coverage`

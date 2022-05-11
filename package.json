@@ -1,16 +1,21 @@
 {
   "name": "@dp-websolutions/laravel-translator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test": "vitest run",
+    "test:dev": "vitest dev",
+    "coverage": "vitest run --coverage",
     "prepare": "npm run build"
   },
   "devDependencies": {
+    "c8": "^7.11.2",
     "lodash.get": "^4.4.2",
     "lodash.isinteger": "^4.0.4",
     "lodash.isobject": "^3.0.2",
-    "vite": "^2.9.0"
+    "vite": "^2.9.0",
+    "vitest": "^0.12.4"
   },
   "files": [
     "dist/*"

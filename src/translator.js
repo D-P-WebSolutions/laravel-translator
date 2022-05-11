@@ -41,7 +41,6 @@ export default function Translator(_strings) {
             let match = part.match(rx);
 
             if (match && match[0]) {
-              console.log("matched");
               text = part.replace(rx, "").trim();
             }
 
